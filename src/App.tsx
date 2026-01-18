@@ -23,23 +23,21 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-
-      {/* 🔴 CRITICAL FIX FOR GITHUB PAGES */}
       <BrowserRouter basename="/New-Akromind">
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/why-choose-us" element={<WhyChooseUs />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/privacy" element={<Privacy />} />
-          <Route path="/terms" element={<Terms />} />
-          <Route path="/verticals/akrotution" element={<AkroTution />} />
-          <Route path="/verticals/akroplacement" element={<AkroPlacement />} />
-          <Route path="/verticals/akroholidays" element={<AkroHolidays />} />
-          <Route path="/verticals/akromind" element={<AkroMind />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Index />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/why-choose-us" element={<WhyChooseUs />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/privacy" element={<Privacy />} />
+        <Route path="/terms" element={<Terms />} />
+        <Route path="/verticals/akrotution" element={<AkroTution />} />
+        <Route path="/verticals/akroplacement" element={<AkroPlacement />} />
+        <Route path="/verticals/akroholidays" element={<AkroHolidays />} />
+        <Route path="/verticals/akromind" element={<AkroMind />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
 );
