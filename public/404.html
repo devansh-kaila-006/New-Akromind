@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <script>
-      location.replace("/?" + location.pathname);
+      // Redirect all unknown routes to index.html for SPA routing
+      location.replace("/?redirect=" + location.pathname);
     </script>
   </head>
   <body></body>

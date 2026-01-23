@@ -2,12 +2,12 @@
 <html lang="en">
   <head>
     <script>
-      const redirect = window.location.search.slice(1);
+      const params = new URLSearchParams(window.location.search);
+      const redirect = params.get("redirect");
       if (redirect) {
         window.history.replaceState(null, "", redirect);
       }
   </script>
-
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
