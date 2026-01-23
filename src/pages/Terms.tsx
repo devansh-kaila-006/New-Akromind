@@ -115,9 +115,9 @@ const Terms = () => {
                 <p className="text-muted-foreground leading-relaxed">
                   For questions regarding these Terms, please contact us at:
                   <br /><br />
-                  <strong>Email:</strong> legal@newakromind.com
+                  <strong>Email:</strong> hello.newakromind@gmail.com
                   <br />
-                  <strong>Address:</strong> 123 Innovation Hub, Tech District, New Delhi, India 110001
+                  <strong>Address:</strong> 118, Kapoor Niwas, Dugri, Ludhiana, Punjab, India 141001
                 </p>
               </div>
             </div>
