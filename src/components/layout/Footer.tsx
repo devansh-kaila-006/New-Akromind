@@ -91,7 +91,7 @@ export const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 mt-0.5 flex-shrink-0" />
                 <span className="text-primary-foreground/70">
-                  118, Kapoor Niwas, Dugri, Ludhiana,<br/>
+                  18, Kapoor Niwas, Dugri, Ludhiana,<br/>
                   Punjab, India 141001 
                 </span>
               </li>

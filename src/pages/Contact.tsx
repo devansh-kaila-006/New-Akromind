@@ -6,7 +6,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Visit Us",
-    details: ["118, Kapoor Niwas, Dugri, Ludhiana, ", "Punjab, India 141001"],
+    details: ["18, Kapoor Niwas, Dugri, Ludhiana, ", "Punjab, India 141001"],
   },
   {
     icon: Phone,

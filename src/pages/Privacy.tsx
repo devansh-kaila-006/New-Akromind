@@ -98,7 +98,7 @@ const Privacy = () => {
                   <br /><br />
                   <strong>Email:</strong> hello.newakromind@gmail.com
                   <br />
-                  <strong>Address:</strong> 118, Kapoor Niwas, Dugri, Ludhiana, Punjab, India 141001
+                  <strong>Address:</strong> 18, Kapoor Niwas, Dugri, Ludhiana, Punjab, India 141001
                 </p>
               </div>
             </div>
