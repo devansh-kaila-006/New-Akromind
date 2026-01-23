@@ -2,10 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Redirecting...</title>
     <script>
-      const path = location.pathname.replace("/New-Akromind", "");
-      location.replace("/New-Akromind/?" + path);
+      location.replace("/?" + location.pathname);
     </script>
   </head>
   <body></body>
