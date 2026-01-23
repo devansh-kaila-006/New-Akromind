@@ -91,20 +91,20 @@ export const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 mt-0.5 flex-shrink-0" />
                 <span className="text-primary-foreground/70">
-                  123 Innovation Hub, Tech District<br />
-                  New Delhi, India 110001
+                  118, Kapoor Niwas, Dugri, Ludhiana,<br/>
+                  Punjab, India 141001 
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 flex-shrink-0" />
                 <a href="tel:+911234567890" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors">
-                  +91 123 456 7890
+                  +91 771 978 3125
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 flex-shrink-0" />
-                <a href="mailto:hello@newakromind.com" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors">
-                  hello@newakromind.com
+                <a href="mailto:hello.newakromind@gmail.com" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors">
+                  hello.newakromind@gmail.com
                 </a>
               </li>
             </ul>
